@@ -1,0 +1,5 @@
+[core]
+	pager = less -R
+[user]
+	name = gleentea
+	email = gleentea@gmail.com
