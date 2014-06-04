@@ -14,3 +14,7 @@
   (show-paren-mode t)
   )
 (add-hook 'c-mode-common-hook 'add-c-mode-common-conf)
+
+(setq w (selected-window))
+(setq w2 (split-window w  (/ (frame-width) 3) t))
+(setq w3 (split-window w2 (/ (frame-width) 3) t))
